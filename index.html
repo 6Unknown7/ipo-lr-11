@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Новости Hacker News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .comments {
+            background-color: #2196F3;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📰 Новости Hacker News</h1>
+        
+        <table>
+            <tr>
+                <th>№</th>
+                <th>Заголовок</th>
+                <th>Комментарии</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Hacker News is great</td>
+                <td><span class="comments">💬 234</span></td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Python 3.12 Released</td>
+                <td><span class="comments">💬 15</span></td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Understanding AI Models</td>
+                <td><span class="comments">💬 4</span></td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Learn Programming</td>
+                <td><span class="comments">💬 42</span></td>
+            </tr>
+
+        </table>
+        
+        <div class="link">
+            <p>Источник данных: <a href="https://news.ycombinator.com/" target="_blank">Hacker News</a></p>
+        </div>
+    </div>
+</body>
+</html>
