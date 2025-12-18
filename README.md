@@ -18,7 +18,6 @@
 
 1. Скачайте все файлы в одну папку.
 2. Запускайте файлы по порядку:
-   - task_1/main.py
    - task_2/main.py  
    - task_3/main.py
    - task_4/main.py
